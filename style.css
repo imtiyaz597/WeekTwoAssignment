@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: Arial,  sans-serif;
+    background-color: #ccc;
+}
+
+.container1{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: white;
+    max-width: 400px;
+    width: 100%;
+    margin: 10px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+ input{
+    margin: 10px 0px;
+    max-width: 400px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#btn{
+    padding: 15px;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px 0;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+#btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/* The Second */
+
+.container {
+    margin: 0px auto;
+    height: 40vh;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {   
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 5px ;
+    font-size: 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+
+
